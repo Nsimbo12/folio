@@ -1,0 +1,38 @@
+body{
+    background-color: #ca2e67;
+}
+.titre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.titre p{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    background: white;
+    padding: 15px;
+    width: 80%;
+    margin: 12px;
+}
+.card .block img{
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.col{
+    width: 500px;
+    margin-left: 20px;
+}
